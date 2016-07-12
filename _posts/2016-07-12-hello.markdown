@@ -29,12 +29,13 @@ Após instalar vamos da uma curl novamente ( ͡° ͜ʖ ͡° ).
 Os plugins instalados foram:
 <ul>
 <li>NERDTree - Oferece uma janelinha com um navegador de arquivos.</li>
-	*neosnippet - Suporte a Snippets de Código
-	*neosnippet-snippets - Suporte a Snippets de Código
-	*vim-fugitive - Manipulação de repositórios git a partir do modo de comandos do VIm
-	*ctrlp.vim - Um plugin para busca muito overpower
-	*vim-colorschemes - Melhorias na coloração de código
-	*emmet-vim - Zen Coding (uma série de atalhos para digitação de html e css de maneira bem simplificada)
+<li>neosnippet - Suporte a Snippets de Código</li>
+<li>neosnippet-snippets - Suporte a Snippets de Código</li>
+<li>vim-fugitive - Manipulação de repositórios git a partir do modo de comandos do Vim</li>
+<li>ctrlp.vim - Um plugin para busca muito overpower</li>
+<li>vim-colorschemes - Melhorias na coloração de código</li>
+<li>emmet-vim - Zen Coding (uma série de atalhos para digitação de html e css de maneira bem simplificada)</li>
+</ul>
 
 Mais ainda não acabou, so mais um curl rsrs.
 
