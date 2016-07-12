@@ -1,0 +1,7 @@
+---
+layout: post
+title: E ai beleza
+date: 2016-07-11T09:33:44.000Z
+---
+
+<img src="/images/fulls/hello.jpg" class="fit image">E awe caras, primeiro post aki do blog so de teste mesmo rsrsrs.
