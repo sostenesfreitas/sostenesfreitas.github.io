@@ -4,10 +4,12 @@ title: Ta saindo da jaula o monstro.
 date: 2016-07-11T12:16:44.000Z
 ---
 
-<img src="/images/fulls/hello.jpg" class="fit image">Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
+<img src="/images/fulls/terminal0html.png" class="fit image"/>Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
 Antes de tudo temos que baixar e instalar o vim git e o curl:'sudo pacman -S vim git curl' o comando pode variar isso vai dependee da distro que vc ta usando eu uso ArchLinux (S2).
 
 Pronto tudo instalado é so da um curl.
+
+
 ```$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh```
 E depois executar a instalação
 ```sh ./install.sh```.
@@ -23,13 +25,10 @@ Os plugins instalados foram:
 	emmet-vim - Zen Coding (uma série de atalhos para digitação de html e css de maneira bem simplificada)
 
 Mais ainda não acabou, so mais um curl rsrs.
+
+
 ```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/generate.vim > ~/.vimrc```
 
 Agora eh so executar o vim: 'vim test.html'.
-
-Resultado:
-<img src="/images/fulls/terminal.png">
-Já que o Emment foi instalado da pra fazer umas brincadeiras legais digite html:5 e segure ctrl + aperte y e ',':
-<img src="/images/fulls/terminal0html.png">
 
 Por hoje é so.
