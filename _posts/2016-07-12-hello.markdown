@@ -1,7 +1,35 @@
 ---
 layout: post
-title: E ai beleza
-date: 2016-07-11T09:33:44.000Z
+title: Ta saindo da jaula o monstro.
+date: 2016-07-11T12:16:44.000Z
 ---
 
-<img src="/images/fulls/hello.jpg" class="fit image">E awe caras, primeiro post aki do blog so de teste mesmo rsrsrs.
+<img src="/images/fulls/hello.jpg" class="fit image">Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
+Antes de tudo temos que baixar e instalar o vim git e o curl:'sudo pacman -S vim git curl' o comando pode variar isso vai dependee da distro que vc ta usando eu uso ArchLinux (S2).
+
+Pronto tudo instalado é so da um curl.
+```$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh```
+E depois executar a instalação
+```sh ./install.sh```.
+Após instalar vamos da uma curl novamente ( ͡° ͜ʖ ͡° ).
+```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/.vimrc > ~/.vimrc```
+Os plugins instalados foram:
+	NERDTree - Oferece uma janelinha com um navegador de arquivos.
+	neosnippet - Suporte a Snippets de Código
+	neosnippet-snippets - Suporte a Snippets de Código
+	vim-fugitive - Manipulação de repositórios git a partir do modo de comandos do VIm
+	ctrlp.vim - Um plugin para busca muito overpower
+	vim-colorschemes - Melhorias na coloração de código
+	emmet-vim - Zen Coding (uma série de atalhos para digitação de html e css de maneira bem simplificada)
+
+Mais ainda não acabou, so mais um curl rsrs.
+```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/generate.vim > ~/.vimrc```
+
+Agora eh so executar o vim: 'vim test.html'.
+
+Resultado:
+<img src="/images/fulls/terminal.png">
+Já que o Emment foi instalado da pra fazer umas brincadeiras legais digite html:5 e segure ctrl + aperte y e ',':
+<img src="/images/fulls/terminal0html.png">
+
+Por hoje é so.
