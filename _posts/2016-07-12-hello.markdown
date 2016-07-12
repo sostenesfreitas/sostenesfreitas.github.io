@@ -4,7 +4,7 @@ title: Ta saindo da jaula o monstro.
 date: 2016-07-11T12:16:44.000Z
 ---
 
-<img src="/images/fulls/vimboy.jpg" class="fit image"/>Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
+<img src="/images/fulls/vimboy.jpg" class="fit image">Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
 
 Antes de tudo temos que baixar e instalar o vim git e o curl:```sudo pacman -S vim git curl``` o comando pode variar isso vai dependee da distro que vc ta usando eu uso ArchLinux (S2).
 
