@@ -4,17 +4,28 @@ title: Ta saindo da jaula o monstro.
 date: 2016-07-11T12:16:44.000Z
 ---
 
-<img src="/images/fulls/terminal0html.png" class="fit image"/>Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
-Antes de tudo temos que baixar e instalar o vim git e o curl:'sudo pacman -S vim git curl' o comando pode variar isso vai dependee da distro que vc ta usando eu uso ArchLinux (S2).
+<img src="/images/fulls/vimboy.jpg" class="fit image"/>Primeiro Tutorial do blog, vamos deixar o vim 'MONSTRO'.
+
+Antes de tudo temos que baixar e instalar o vim git e o curl:```sudo pacman -S vim git curl``` o comando pode variar isso vai dependee da distro que vc ta usando eu uso ArchLinux (S2).
 
 Pronto tudo instalado é so da um curl.
 
 
 ```$ curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh > install.sh```
+
+
 E depois executar a instalação
+
+
 ```sh ./install.sh```.
+
+
 Após instalar vamos da uma curl novamente ( ͡° ͜ʖ ͡° ).
+
+
 ```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/.vimrc > ~/.vimrc```
+
+
 Os plugins instalados foram:
 	NERDTree - Oferece uma janelinha com um navegador de arquivos.
 	neosnippet - Suporte a Snippets de Código
@@ -29,6 +40,7 @@ Mais ainda não acabou, so mais um curl rsrs.
 
 ```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/generate.vim > ~/.vimrc```
 
-Agora eh so executar o vim: 'vim test.html'.
+Agora eh so executar o vim: ```vim test.html```.
+ <img src="/images/fulls/terminal.jpg">
 
-Por hoje é so.
+ Por hoje é so.
