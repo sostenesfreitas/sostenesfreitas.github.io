@@ -43,6 +43,6 @@ Mais ainda não acabou, so mais um curl rsrs.
 ```curl https://raw.githubusercontent.com/sostenesfreitas/myvim/master/generate.vim > ~/.vimrc```
 
 Agora eh so executar o vim: ```vim test.html```.
- <img src="/images/fulls/terminal.jpg">
+ <img src="/images/fulls/terminal.jpg" class="fit image">
 
  Por hoje é so.

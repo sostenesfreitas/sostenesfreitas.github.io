@@ -1,0 +1,26 @@
+---
+layout: post
+title: Comprando conta Netflix na Deep Web
+date: 2016-07-12T14:54:44.000Z
+---
+<img src="images/fulls/deep.png" class="fit image">
+O as ideia que faz essas imagens até parece que é assim rsrsrsrs.
+
+
+E ai vamos hoje fazer comprinhas na deep web rsrsrs, é bem simples 
+
+Primeiro, baixem o <a href="https://www.torproject.org/projects/torbrowser.html.en">Tor Browser</a>, depois que extrair o zip abra o navegador Tor.
+Vamos agora para o segundo passo. É so acessar esse link: http://pwoah7foa6au2pul.onion e fazer a conta.
+
+Devia ter falado antes mais sera preciso de bitcoins, pois é a moeda usada pelo site ele recebe outras mas eu uso btc. Depois eu mostro como pegar BTC "free".
+
+Agora é a parte boa, eh so ir na parte de Digital Products:
+<img src="images/fulls/digital.png" class="fit image">
+ 
+e procurar por netflix:
+<img src="images/fulls/netflix" class="fit image">
+
+so clicar em buy now:
+<img src="images/fulls/buy.png" class="fit image">
+
+é bem simples é igual a qualque ecommerce, como eh acc assim que vc finalizar a compra ele ja manda. 
